@@ -61,5 +61,6 @@ namespace CSharp.TipoviOperatori
             {
             }
         }
+        // Bačena je iznimka unaable to cast object
     }
 }
