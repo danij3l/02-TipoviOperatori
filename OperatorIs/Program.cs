@@ -14,6 +14,19 @@ namespace CSharp.TipoviOperatori
             
             Osoba osoba = new Osoba();
 
+            bool bitiIliNeBitiStudent= janko is Student;
+            bool bitiIliNeBitiOsoba = janko is Osoba;
+
+            Console.WriteLine(bitiIliNeBitiStudent);
+            Console.WriteLine(bitiIliNeBitiOsoba);
+
+            bitiIliNeBitiStudent = osoba is Student;
+            bitiIliNeBitiOsoba = osoba is Osoba;
+
+            Console.WriteLine(bitiIliNeBitiStudent);
+            Console.WriteLine(bitiIliNeBitiOsoba);
+
+
 
             Console.ReadKey();
         }
