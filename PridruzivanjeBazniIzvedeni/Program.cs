@@ -22,9 +22,16 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             Osoba osoba = new Osoba();
-
+            osoba.DajOib();
             
             Osoba osobaStudent = new Student();
+            osobaStudent.DajOib();
+            //osobaStudent.PoložiIspit(CSharp);
+
+            Student danijel = new Student();
+            danijel.DajOib();
+            danijel.PoložiIspit("CSharp");
+
 
 
 
