@@ -1,4 +1,7 @@
-﻿namespace PrviImenik
+﻿
+using DrugiImenik;
+
+namespace PrviImenik
 {
     class Program
     {
@@ -6,7 +9,7 @@
         {
             MojaKlasa mk1 = new MojaKlasa();
             mk1.Metoda1();
-            MojaKlasa mk2 = new MojaKlasa();
+            DrugiImenik.MojaKlasa mk2 = new DrugiImenik.MojaKlasa();
             mk2.Metoda2();
         }
     }
