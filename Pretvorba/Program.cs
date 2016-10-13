@@ -35,24 +35,25 @@ namespace Pretvorba
         static void Main(string[] args)
         {
             Student student = new Student();
-            // dodati sve moguće pozive metoda za student
+            student.DajSvojOib();
+            student.PoložiIspit("CSharp");
 
 
             Osoba osobaS = student;
-            // dodati sve moguće pozive metoda za osobaS
+            osobaS.DajSvojOib();
 
-
-            Student sos = osobaS;
-            // dodati sve moguće pozive metoda za sos
-
+            Student sos = (Student)osobaS;
+            sos.DajSvojOib();
+            sos.PoložiIspit("CSharp");
+   
 
             Osoba osobaR = new Radnik();
-            // dodati sve moguće pozive metoda za osobaR
+            osobaR.DajSvojOib();
 
 
-            Student sor = osobaR;
-            // dodati sve moguće pozive metoda za sor
-
+            Student sor = (Student)osobaR;
+            sor.DajSvojOib();
+            sor.PoložiIspit("CSharp");
 
         }
     }
