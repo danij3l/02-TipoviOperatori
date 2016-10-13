@@ -9,6 +9,11 @@ namespace CSharp.TipoviOperatori
     {
         static void Main(string[] args)
         {
+            int String;
+            int get;
+            int main;
+            int \u0161etrdesetšest;
+            int бројШест; //inenađujuće fleksibilan kompajler
         }
     }
 }
