@@ -9,6 +9,11 @@ namespace CSharp.TipoviOperatori
     {
         static void Main(string[] args)
         {
+            int x;
+            // Console.WriteLine(x); -> greška
+            int y = 4;
+            string s1;
+            string s2 = "string 1";
         }
     }
 }
