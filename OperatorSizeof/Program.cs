@@ -46,6 +46,8 @@ namespace CSharp.TipoviOperatori
             Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaKlasa)));
 
             Console.ReadKey();
+
+            // pokusaj 
         }
     }
 }

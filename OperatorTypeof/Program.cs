@@ -10,10 +10,10 @@ namespace CSharp.TipoviOperatori
             Type t = typeof(System.DateTime);
 
 
-            //foreach (MemberInfo mi in t.GetMembers())
-            //{
-            //    Console.WriteLine($"{mi.Name} {mi.MemberType.ToString()}");
-            //}
+            foreach (MemberInfo mi in t.GetMembers())
+            {
+                Console.WriteLine($"{mi.Name} {mi.MemberType.ToString()}");
+            }
 
             foreach (MethodInfo mi in t.GetMethods())
             {
